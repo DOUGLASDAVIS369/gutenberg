@@ -24,9 +24,7 @@ test.describe( 'Font Library', () => {
 				.getByRole( 'region', { name: 'Editor top bar' } )
 				.getByRole( 'button', { name: 'Styles' } )
 				.click();
-			await page
-				.getByRole( 'button', { name: 'Typography Styles' } )
-				.click();
+			await page.getByRole( 'button', { name: 'Typography' } ).click();
 			await page
 				.getByRole( 'button', {
 					name: 'Add fonts',
@@ -43,9 +41,7 @@ test.describe( 'Font Library', () => {
 				.getByRole( 'region', { name: 'Editor top bar' } )
 				.getByRole( 'button', { name: 'Styles' } )
 				.click();
-			await page
-				.getByRole( 'button', { name: 'Typography Styles' } )
-				.click();
+			await page.getByRole( 'button', { name: 'Typography' } ).click();
 			const addFontsButton = page.getByRole( 'button', {
 				name: 'Add fonts',
 			} );
@@ -73,9 +69,7 @@ test.describe( 'Font Library', () => {
 				.getByRole( 'region', { name: 'Editor top bar' } )
 				.getByRole( 'button', { name: 'Styles' } )
 				.click();
-			await page
-				.getByRole( 'button', { name: 'Typography Styles' } )
-				.click();
+			await page.getByRole( 'button', { name: 'Typography' } ).click();
 			const manageFontsButton = page.getByRole( 'button', {
 				name: 'Manage fonts',
 			} );
@@ -89,9 +83,7 @@ test.describe( 'Font Library', () => {
 				.getByRole( 'region', { name: 'Editor top bar' } )
 				.getByRole( 'button', { name: 'Styles' } )
 				.click();
-			await page
-				.getByRole( 'button', { name: 'Typography Styles' } )
-				.click();
+			await page.getByRole( 'button', { name: 'Typography' } ).click();
 			await page
 				.getByRole( 'button', {
 					name: 'Manage fonts',
@@ -110,9 +102,7 @@ test.describe( 'Font Library', () => {
 				.getByRole( 'region', { name: 'Editor top bar' } )
 				.getByRole( 'button', { name: 'Styles' } )
 				.click();
-			await page
-				.getByRole( 'button', { name: 'Typography Styles' } )
-				.click();
+			await page.getByRole( 'button', { name: 'Typography' } ).click();
 			await page
 				.getByRole( 'button', {
 					name: 'Manage fonts',
@@ -162,9 +152,7 @@ test.describe( 'Font Library', () => {
 				.getByRole( 'region', { name: 'Editor top bar' } )
 				.getByRole( 'button', { name: 'Styles' } )
 				.click();
-			await page
-				.getByRole( 'button', { name: 'Typography Styles' } )
-				.click();
+			await page.getByRole( 'button', { name: 'Typography' } ).click();
 			await page
 				.getByRole( 'button', {
 					name: 'Add fonts',
@@ -254,9 +242,7 @@ test.describe( 'Font Library', () => {
 			// Click "Back" button
 			await page.getByRole( 'button', { name: 'Back' } ).click();
 
-			await page
-				.getByRole( 'button', { name: 'Typography styles' } )
-				.click();
+			await page.getByRole( 'button', { name: 'Typography' } ).click();
 
 			// Click "Jost 2 variants" button
 			await page
@@ -288,9 +274,7 @@ test.describe( 'Font Library', () => {
 			// Click "Back" button
 			await page.getByRole( 'button', { name: 'Back' } ).click();
 
-			await page
-				.getByRole( 'button', { name: 'Typography styles' } )
-				.click();
+			await page.getByRole( 'button', { name: 'Typography' } ).click();
 
 			// Click Cardo font-family.
 			await page
