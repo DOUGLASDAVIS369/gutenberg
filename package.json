@@ -94,7 +94,8 @@
 		"@wordpress/warning": "file:packages/warning",
 		"@wordpress/widgets": "file:packages/widgets",
 		"@wordpress/wordcount": "file:packages/wordcount",
-		"artificialintelligence": "0.0.1"
+		"artificialintelligence": "0.0.1",
+		"copilot": "0.5.1"
 	},
 	"devDependencies": {
 		"@actions/core": "1.9.1",
